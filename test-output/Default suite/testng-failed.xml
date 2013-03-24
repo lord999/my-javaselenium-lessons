@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ru.st.LoginTest">
+      <class name="ru.st.RemoveMovie">
         <methods>
+          <include name="testRemovefilm"/>
           <include name="init"/>
           <include name="tearDown"/>
-          <include name="testLogin"/>
         </methods>
-      </class> <!-- ru.st.LoginTest -->
+      </class> <!-- ru.st.RemoveMovie -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

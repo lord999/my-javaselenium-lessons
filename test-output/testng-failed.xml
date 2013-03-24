@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite verbose="5" name="Failed suite [Tests]" data-provider-thread-count="1">
+  <parameter name="path" value="/"/>
+  <test name="Test1(failed)">
+    <parameter name="path" value="/"/>
     <classes>
-      <class name="ru.st.LoginTest">
+      <class name="ru.st.Login">
         <methods>
           <include name="init"/>
           <include name="tearDown"/>
-          <include name="testLogin"/>
         </methods>
-      </class> <!-- ru.st.LoginTest -->
+      </class> <!-- ru.st.Login -->
+      <class name="ru.st.RemoveMovie">
+        <methods>
+          <include name="testRemoveFilm2"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- ru.st.RemoveMovie -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
