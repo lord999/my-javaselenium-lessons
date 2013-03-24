@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 public class RemoveFilm extends ru.st.pages.TestBase {
@@ -23,6 +24,7 @@ public class RemoveFilm extends ru.st.pages.TestBase {
 	    	try { if (isElementPresent(By.xpath("//div[contains (@id, 'movie_" + FilmID + "')]"))) break; } catch (Exception e) {}
 	    	Thread.sleep(1000);
 	    }
+
 
 	    driver.findElement(By.xpath("//div[contains (@id, 'movie_" + FilmID + "')]")).click();
 	    for (int second = 0;; second++) {

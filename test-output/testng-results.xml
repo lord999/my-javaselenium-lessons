@@ -1,54 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="80731" started-at="2013-03-24T09:20:28Z" finished-at="2013-03-24T09:21:48Z">
+  <suite name="Tests" duration-ms="48103" started-at="2013-03-24T19:09:11Z" finished-at="2013-03-24T19:09:59Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="80731" started-at="2013-03-24T09:20:28Z" finished-at="2013-03-24T09:21:48Z">
-      <class name="ru.st.AddFilm">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.AddFilm@1225d4a]" name="init" is-config="true" duration-ms="33" started-at="2013-03-24T13:20:42Z" finished-at="2013-03-24T13:20:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="testAddFilm()[pri:0, instance:ru.st.AddFilm@1225d4a]" name="testAddFilm" duration-ms="17533" started-at="2013-03-24T13:20:42Z" finished-at="2013-03-24T13:20:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddFilm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.AddFilm@1225d4a]" name="tearDown" is-config="true" duration-ms="395" started-at="2013-03-24T13:21:48Z" finished-at="2013-03-24T13:21:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ru.st.AddFilm -->
-      <class name="ru.st.AddFilmReqFields">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.AddFilmReqFields@1094702]" name="init" is-config="true" duration-ms="38" started-at="2013-03-24T13:20:59Z" finished-at="2013-03-24T13:20:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="testAddFilmReqFields()[pri:0, instance:ru.st.AddFilmReqFields@1094702]" name="testAddFilmReqFields" duration-ms="14820" started-at="2013-03-24T13:20:59Z" finished-at="2013-03-24T13:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddFilmReqFields -->
-      </class> <!-- ru.st.AddFilmReqFields -->
+    <test name="Test1" duration-ms="48103" started-at="2013-03-24T19:09:11Z" finished-at="2013-03-24T19:09:59Z">
       <class name="ru.st.RemoveFilm">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.RemoveFilm@bf811c]" name="init" is-config="true" duration-ms="30" started-at="2013-03-24T13:21:14Z" finished-at="2013-03-24T13:21:14Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.RemoveFilm@b026a0]" name="init" is-config="true" duration-ms="28" started-at="2013-03-24T23:09:25Z" finished-at="2013-03-24T23:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testRemoveFilm()[pri:0, instance:ru.st.RemoveFilm@bf811c]" name="testRemoveFilm" duration-ms="34038" started-at="2013-03-24T13:21:14Z" finished-at="2013-03-24T13:21:48Z">
+        <test-method status="PASS" signature="testRemoveFilm()[pri:0, instance:ru.st.RemoveFilm@b026a0]" name="testRemoveFilm" duration-ms="34359" started-at="2013-03-24T23:09:25Z" finished-at="2013-03-24T23:09:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveFilm -->
       </class> <!-- ru.st.RemoveFilm -->
       <class name="ru.st.Login">
-        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.Login@b57ca1]" name="init" is-config="true" duration-ms="9378" started-at="2013-03-24T13:20:28Z" finished-at="2013-03-24T13:20:37Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.Login@167be7c]" name="init" is-config="true" duration-ms="8592" started-at="2013-03-24T23:09:11Z" finished-at="2013-03-24T23:09:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:ru.st.Login@b57ca1]" name="testLogin" duration-ms="4834" started-at="2013-03-24T13:20:37Z" finished-at="2013-03-24T13:20:42Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:ru.st.Login@167be7c]" name="testLogin" duration-ms="5099" started-at="2013-03-24T23:09:20Z" finished-at="2013-03-24T23:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.Login@167be7c]" name="tearDown" is-config="true" duration-ms="507" started-at="2013-03-24T23:09:59Z" finished-at="2013-03-24T23:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- ru.st.Login -->
     </test> <!-- Test1 -->
   </suite> <!-- Tests -->

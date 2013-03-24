@@ -1,17 +1,6 @@
 package ru.st;
 
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-import org.testng.*;
-import org.testng.annotations.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 import java.sql.*;
-
-import javax.sql.*;
 
 public class DBQuery {
 
@@ -21,7 +10,6 @@ public class DBQuery {
 		  String DBUser = "root";
 		  String DBPassword = "";
 		  String FilmID = "";
-		
 		
 		  try{
 			

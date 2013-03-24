@@ -5,8 +5,6 @@
 		<parameter name="path" value="/"/>
 		<classes>
 		    <class name="ru.st.Login"/>
-		    <class name="ru.st.AddFilm"/>
-		    <class name="ru.st.AddFilmReqFields"/>		    
 		   	<class name="ru.st.RemoveFilm"/>
 		</classes>
 	</test>  

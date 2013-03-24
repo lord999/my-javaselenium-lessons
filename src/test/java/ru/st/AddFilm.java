@@ -19,7 +19,7 @@ public class AddFilm extends ru.st.pages.TestBase {
     driver.get(baseUrl + "/php4dvd/");
     driver.findElement(By.cssSelector("a[href=\"./?go=add\"]")).click();
     driver.findElement(By.name("name")).clear();
-    driver.findElement(By.name("name")).sendKeys("Some Movie");
+    driver.findElement(By.name("name")).sendKeys("Jabberwocky Movie");
     driver.findElement(By.name("imdbid")).clear();
     driver.findElement(By.name("imdbid")).sendKeys("101100");
     driver.findElement(By.name("aka")).clear();
@@ -36,7 +36,7 @@ public class AddFilm extends ru.st.pages.TestBase {
     driver.findElement(By.name("taglines")).clear();
     driver.findElement(By.name("taglines")).sendKeys("some tagline");
     driver.findElement(By.name("plotoutline")).clear();
-    driver.findElement(By.name("plotoutline")).sendKeys("Here goes some interesting plot.");
+    driver.findElement(By.name("plotoutline")).sendKeys("Twas brillig, and the slithy toves did gyre and gimble in the wabe.");
     driver.findElement(By.name("plots")).clear();
     driver.findElement(By.name("plots")).sendKeys("Alice, an unpretentious and individual 19-year-old, is betrothed to a dunce of an English nobleman. At her engagement party, she escapes the crowd to consider whether to go through with the marriage and falls down a hole in the garden after spotting an unusual rabbit. Arriving in a strange and surreal place called \"Underland,\" she finds herself in a world that resembles the nightmares she had as a child, filled with talking animals, villainous queens and knights, and frumious bandersnatches. Alice realizes that she is there for a reason--to conquer the horrific Jabberwocky and restore the rightful queen to her throne. Written by Jim Beaver");
     driver.findElement(By.id("text_languages_0")).clear();
