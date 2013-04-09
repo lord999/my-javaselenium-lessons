@@ -4,7 +4,10 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="ru.st.LoginTest"/>
+		    <class name="ru.st.selenium.LoginTest"/>
+		    <class name="ru.st.selenium.AddFilmPos"/>		    
+		    <class name="ru.st.selenium.AddFilmNeg"/>		    		    
+		    <class name="ru.st.selenium.SearchForFilm"/>		
 		</classes>
 	</test>  
 </suite>
